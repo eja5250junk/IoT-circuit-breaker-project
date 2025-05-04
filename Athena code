@@ -1,0 +1,4 @@
+SELECT Item.irms_current.N as irms_current,
+  Item.vrms_voltage.N as vrms_voltage,
+  Item.timestamp.S as time
+From data
